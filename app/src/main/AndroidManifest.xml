@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.e.covid19">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permision.CALL_PHONE" />
+    <uses-permission android:name="android.permision.ACCESS_NETOWRK_STATE" />
+    <uses-permission android:name="android.permision.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconfinal"
+        android:label="CoVID Care"
+        android:roundIcon="@drawable/iconfinal"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Feedback"></activity>
+        <activity android:name=".Menu" />
+
+        <activity
+            android:name=".Splash"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Govt" />
+        <activity android:name=".Course" />
+        <activity android:name=".More" />
+        <activity android:name=".Self" />
+        <activity android:name=".Choose" />
+        <activity android:name=".Groc" />
+        <activity android:name=".virus" />
+        <activity android:name=".Cont" />
+        <activity android:name=".News" />
+        <activity android:name=".Appointment" />
+        <activity android:name=".About" />
+        <activity android:name=".Who" />
+        <activity
+            android:name=".Help"
+            android:noHistory="true" />
+        <activity android:name=".Med" />
+        <activity android:name=".Donate" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

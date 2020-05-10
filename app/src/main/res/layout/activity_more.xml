@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".More"
+    android:background="#060E29">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageView10"
+        android:layout_width="280dp"
+        android:layout_height="165dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/giphy" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="#073463"
+        app:cardCornerRadius="20dp"
+        android:id="@+id/cardView"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:elevation="20dp"
+        android:layout_below="@id/textView10">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="WHO Regulations"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="#3299CC"
+        app:cardCornerRadius="20dp"
+        android:id="@+id/cardView2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:elevation="20dp"
+        android:layout_below="@id/textView10">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="About CoVID-19"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="#838EDE	"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:id="@+id/cardView3"
+        android:layout_below="@+id/cardView"
+        android:elevation="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:text="Enroll in courses"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="#1ca9c0"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:id="@+id/cardView6"
+        android:layout_below="@+id/cardView3"
+        android:elevation="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       Advice for\n migratory labours"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="#f9a602"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:id="@+id/cardView8"
+        android:layout_below="@+id/cardView6"
+        android:elevation="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Report Case"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="#f92602"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="20dp"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"
+        android:id="@+id/cardView9"
+        android:layout_below="@+id/cardView8"
+        android:elevation="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="List of Zones\n as per Govt."
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="#AB82FF"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/cardView4"
+        android:layout_below="@+id/cardView"
+        android:elevation="20dp">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text=" FAQ"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="#002147"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/cardView5"        android:layout_below="@+id/cardView4"
+        android:elevation="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"
+                android:text="Contact Hospitals"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="#402020"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/cardView7"
+        android:layout_below="@+id/cardView5"
+        android:elevation="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:textSize="13dp"
+                android:layout_margin="7dp"
+                android:layout_centerInParent="true"
+                android:text="    Food Shelters \n          Nearby"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_below="@id/imageView10"
+        android:layout_centerInParent="true"
+        android:textColor="#fff"
+        android:typeface="monospace"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Wash hands frequently\n with soap or sanitizer\nat least for 20 seconds" />
+
+
+</RelativeLayout>

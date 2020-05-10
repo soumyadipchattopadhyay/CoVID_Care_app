@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Govt"
+      android:background="#060E29">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/source"
+        android:id="@+id/distance"
+        android:layout_above="@id/police"
+        />
+
+
+    <Button
+        android:id="@+id/ambu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/src"
+        android:text="Call Ambulance\n service" />
+
+    <Button
+        android:id="@+id/police"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_centerInParent="true"
+        android:text="Call Local\n Police Station" />
+
+    <Button
+        android:id="@+id/src"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/police"
+        android:text="Senior Citizen \nHelpline" />
+
+    <Button
+        android:id="@+id/child"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/ambu"
+        android:text="Child Helpline" />
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#060E29"
+    tools:context=".Menu">
+
+    <Button
+        android:id="@+id/developer"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:text="Developers "
+
+        />
+
+    <Button
+        android:id="@+id/documentation"
+        android:layout_below="@id/developer"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to use\n This app ?" />
+
+    <Button
+        android:id="@+id/feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/documentation"
+        android:text="Give\n Us Feedback" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="213dp"
+        android:layout_height="228dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/wear" />
+
+
+</RelativeLayout>
